@@ -1,7 +1,7 @@
 // src/App.jsx
 import React, { useContext, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { ThemeProvider, ThemeContext } from './ThemeContext';
+import { ThemeProvider, ThemeContext } from './ThemeContext.jsx';
 import './App.css';
 
 function Counter() {
