@@ -1,5 +1,5 @@
 // src/store.js
-import { createStore } from 'redux';
+import { configureStore } from 'redux';
 
 const initialState = {
   count: 0,
@@ -16,5 +16,5 @@ function counterReducer(state = initialState, action) {
   }
 }
 
-const store = createStore(counterReducer);
+const store = configureStore(counterReducer);
 export default store;
